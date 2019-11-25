@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="basic suite" duration-ms="82264" started-at="2019-11-25T15:21:29Z" finished-at="2019-11-25T15:22:51Z">
+    <groups>
+    </groups>
+    <test name="basic test" duration-ms="82264" started-at="2019-11-25T15:21:29Z" finished-at="2019-11-25T15:22:51Z">
+      <class name="com.shopping.yourlogo.BaseClass">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.shopping.yourlogo.BaseClass@1bce4f0a]" name="openBrowser" is-config="true" duration-ms="45454" started-at="2019-11-25T15:21:29Z" finished-at="2019-11-25T15:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.shopping.yourlogo.BaseClass@1bce4f0a]" name="loginTest" duration-ms="6147" started-at="2019-11-25T15:22:15Z" finished-at="2019-11-25T15:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="SignInPage()[pri:1, instance:com.shopping.yourlogo.BaseClass@1bce4f0a]" name="SignInPage" duration-ms="12340" started-at="2019-11-25T15:22:21Z" finished-at="2019-11-25T15:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPage -->
+        <test-method status="PASS" signature="ItemAddedToCart()[pri:2, instance:com.shopping.yourlogo.BaseClass@1bce4f0a]" name="ItemAddedToCart" duration-ms="16591" started-at="2019-11-25T15:22:34Z" finished-at="2019-11-25T15:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemAddedToCart -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.shopping.yourlogo.BaseClass@1bce4f0a]" name="closeBrowsers" is-config="true" duration-ms="1094" started-at="2019-11-25T15:22:50Z" finished-at="2019-11-25T15:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- com.shopping.yourlogo.BaseClass -->
+    </test> <!-- basic test -->
+  </suite> <!-- basic suite -->
+</testng-results>
