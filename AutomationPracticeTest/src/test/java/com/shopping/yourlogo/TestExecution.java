@@ -23,7 +23,7 @@ public class TestExecution extends BrowserHelper {
 		try {
 			System.out.println("Login---");
 			createAnAccount = new CreateAnAccount(this.driver);
-			createAnAccount.fillEmailAddress("automationpracticesTest1@gmail.com");
+			createAnAccount.fillEmailAddress("automationpracticesT@gmail.com");
 			createAnAccount.clickcreateAnAccount();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -97,7 +97,7 @@ public class TestExecution extends BrowserHelper {
 	public void LoginVerification() {
 		logIn = PageFactory.initElements(driver, LogIn.class);
 		driver.findElement(By.xpath("//a[@class='login']")).click();
-		logIn.fillEmailId("automationpractices1@gmail.com");
+		logIn.fillEmailId("automationpracticesT@gmail.com");
 		logIn.fillPasswd("newpassword1");
 		logIn.clickSignIn();
 
